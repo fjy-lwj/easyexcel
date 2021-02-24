@@ -25,7 +25,7 @@ public class Sample {
         //车牌识别 选取网络图片URL识别                               
         String result3 = aipOcr.plateOcrByUrl("https://yyb.gtimg.com/plate-1-lg.jpg");
 
-        // 调用接口  腾讯接口
+        // 调用接口
         String result4 = aipOcr.idcardOcr("./idcard.jpg", 0);//身份证正面(图片)识别
         String result5 = aipOcr.idcardOcr("./idcard2.jpg", 1);//身份证反面(国徽)识别
         String result6 = aipOcr.bcOcr("./juli2.jpg");//名片识别
