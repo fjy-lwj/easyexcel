@@ -8,6 +8,7 @@ import cn.xsshome.taip.ocr.TAipOcr;
  * 文字识别模块新增手写体识别、车牌识别
  */
 public class Sample {
+
     //设置APPID/APP_KEY
     public static final String APP_ID = "你的 App ID";
     public static final String APP_KEY = "你的 Api Key";
